@@ -1,0 +1,56 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+li {
+    background-color: gray;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+li:hover {
+    background-color: lightgray;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+#dataTable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+    gap: 5px;
+}
+
+#dataTableHeader {
+    background-color: rgb(47, 75, 168);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#addStudent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}

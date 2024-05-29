@@ -1,0 +1,13 @@
+<%- include('partials/head') %>
+<body>
+    <%- include('partials/header') %>
+    <p> <%= pageTitle; %></p>
+
+    <form action="/removeData" method="POST" id="removeData">
+        Student or course id to be removed: <input type="text" name="id" >
+        <button type="submit">Remove</button>
+    </form>
+
+    <%- include('partials/dataTable') %>
+</body>
+</html>
